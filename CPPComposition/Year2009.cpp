@@ -17,7 +17,6 @@ void Year2009::ShowInfo()
 
 }
 
-
 Year2009::~Year2009()
 {
 }
