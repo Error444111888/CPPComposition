@@ -1,5 +1,18 @@
 // pch.cpp: source file corresponding to pre-compiled header; necessary for compilation to succeed
-
 #include "pch.h"
+#include <iostream>
 
-// In general, ignore this file, but keep it around if you are using pre-compiled headers.
+using namespace std;
+
+BitcoinsBirthday::BitcoinsBirthday(int m, int d , int y)
+{
+	month = m;
+	day = d;
+	year = y;
+}
+
+
+void BitcoinsBirthday::PrintTheDate()
+	{
+	cout << "Genesis Block was crated on " << m << "/" << "/" << d << "/" << y << endl;
+	}
