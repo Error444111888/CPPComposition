@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
+    <ClInclude Include="Birthday.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Year2009.h">
+    <ClInclude Include="Coins.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CPPComposition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Year2009.cpp">
+    <ClCompile Include="Birthday.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coins.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
