@@ -5,7 +5,7 @@
 using namespace std;
 
 
-// You/re calling the class in the ehader file with ::
+// You/re calling the class in the header file with ::
 Birthday::Birthday(int m, int d , int y)
 {
 	month = m;

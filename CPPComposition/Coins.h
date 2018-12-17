@@ -1,5 +1,3 @@
-#ifndef COINS_H
-#define COINS_H
 
 #include <string>
 #include "Birthday.h"
@@ -18,4 +16,6 @@ private:
 
 
 };
+
+ 
 
