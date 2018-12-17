@@ -1,5 +1,8 @@
 // Birthday Header
 
+#pragma once
+
+
 #ifndef BIRTHDAY_H
 #define BIRTHDAY_H
 
