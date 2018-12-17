@@ -1,8 +1,11 @@
 // pch.cpp: source file corresponding to pre-compiled header; necessary for compilation to succeed
 
 
-#include "Birthday.h"
+
+#include "pch.h"
+#include "Coins.h"
 #include <iostream>
+
 
 using namespace std;
 
@@ -18,5 +21,5 @@ Birthday::Birthday(int m, int d , int y)
 
 void Birthday::PrintDate()
 	{
-	cout << "Birthday is " << month << "/" << day << "/" << year << endl;
+	cout << "this date --- " << month << "/" << day << "/" << year << endl;
 	}

@@ -1,5 +1,5 @@
+#include "pch.h"
 #include "Coins.h"
-#include "Birthday.h"
 #include <iostream>
 
 using namespace std;

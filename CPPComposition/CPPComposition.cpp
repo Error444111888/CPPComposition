@@ -1,7 +1,7 @@
 // CPPComposition.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "Birthday.h"
+#include "pch.h"
 #include "Coins.h"
 #include <iostream>
 
@@ -12,7 +12,7 @@ int main()
 
 	Birthday BirthObj(01, 03, 2009);
 
-	Coins Bitcoin ("Bitcoin as the Coin", BirthObj);
+	Coins Bitcoin ("Bitcoin's Genesis block", BirthObj);
 	Bitcoin.PrintInfo();
 
 

@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Birthday.h">
+    <ClInclude Include="Coins.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Coins.h">
+    <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,10 +26,10 @@
     <ClCompile Include="CPPComposition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Birthday.cpp">
+    <ClCompile Include="Coins.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Coins.cpp">
+    <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
