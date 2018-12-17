@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
 
-	Birthday BirthObj(01, 03, 2009);
+	Birthday BirthObj(01, 03, 2009); // << You have to convert the class into an object
 
 	Coins Bitcoin ("Bitcoin's Genesis block", BirthObj);
 	Bitcoin.PrintInfo();

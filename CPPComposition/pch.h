@@ -9,7 +9,7 @@
 class Birthday
 {
 public:
-	Birthday (int m, int d, int y);
+	Birthday (int m, int d, int y); 
 	void PrintDate();
 
 

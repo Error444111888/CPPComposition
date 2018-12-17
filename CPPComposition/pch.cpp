@@ -10,7 +10,7 @@
 using namespace std;
 
 
-// You/re calling the class in the header file with ::
+// You/re calling the function within the class with ::
 Birthday::Birthday(int m, int d , int y)
 {
 	month = m;
@@ -19,7 +19,7 @@ Birthday::Birthday(int m, int d , int y)
 }
 
 
-void Birthday::PrintDate()
+void Birthday::PrintDate() // <<< Show what does PrintDate do here
 	{
 	cout << "this date --- " << month << "/" << day << "/" << year << endl;
 	}
